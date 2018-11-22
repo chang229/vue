@@ -33,7 +33,7 @@ module.exports = {
         port: '8888',
         // proxy: {// 设置代理
         //     'api': {
-        //         terget: 'http://yzcrm.111.com.cn',
+        //         terget: 'http://xxx.xxx.xxx',
         //         ws: true,
         //         changeOrigin: true,
         //     },
