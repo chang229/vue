@@ -5,6 +5,11 @@
 npm install
 ```
 
+### 骨架屏注入
+```
+npm run preserve
+```
+
 ### Compiles and hot-reloads for development
 ```
 npm run serve
