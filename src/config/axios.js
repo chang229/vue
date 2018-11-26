@@ -2,7 +2,7 @@ import Axios from 'axios';
 import qs from 'qs';
 import { LoadingBar, Modal } from 'iview';
 
-let loginUrl = '//yzmanage.111.com.cn/';// token验证失败跳转地址
+let loginUrl = 'http://*****';// token验证失败跳转地址
 
 // LoadingBar全局配置
 LoadingBar.config({

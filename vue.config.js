@@ -33,7 +33,7 @@ module.exports = {
         port: '8888',
         proxy: {// 设置代理
             '/login': {
-                target: 'http://yzcrm.111.com.cn',
+                target: 'http://****.com',
                 ws: true,
                 changeOrigin: true,
             },
