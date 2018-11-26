@@ -31,13 +31,13 @@ module.exports = {
     devServer: {// 所以webpack-dev-server的选项都支持
         open: true,
         port: '8888',
-        // proxy: {// 设置代理
-        //     'api': {
-        //         terget: 'http://xxx.xxx.xxx',
-        //         ws: true,
-        //         changeOrigin: true,
-        //     },
-        // },
+        proxy: {// 设置代理
+            '/login': {
+                target: 'http://yzcrm.111.com.cn',
+                ws: true,
+                changeOrigin: true,
+            },
+        },
     },
     pwa: {// pwa配置
         name: '医生工作台',

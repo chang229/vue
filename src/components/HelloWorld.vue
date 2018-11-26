@@ -39,6 +39,11 @@ export default {
     props: {
         msg: String,
     },
+    created () {
+        this.$http.getUserInfo().then((res) => {
+            console.log(res);
+        });
+    },
     components: {
         Button,
     },
